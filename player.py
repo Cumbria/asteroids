@@ -10,7 +10,8 @@ class Player(CircleShape):
         self.timer = 0
 
     def draw(self, screen):
-        pygame.draw.polygon(screen, "white", self.triangle(), 2)
+        pygame.draw.polygon(screen, "white", self.triangle())
+        pygame.draw.polygon(screen, "black", self.triangle(), 1)
 
     def triangle(self):
         forward = pygame.Vector2(0, 1).rotate(self.rotation)
