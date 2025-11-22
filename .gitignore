@@ -10,3 +10,7 @@ wheels/
 .venv
 
 game_state.jsonl
+
+# Hiscore
+hiscore.txt
+
