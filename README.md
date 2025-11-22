@@ -2,6 +2,11 @@
 
 Classic Asteroids-style arcade game implemented in Python using Pygame.
 
+## Motivation
+
+Teach myself Python after not using it since College. The language itself is very straightforward. 
+It didn't take me long to adapt from JS and C# back to Python. I enjoyed getting to grips with this "old friend."
+
 ## Quick start
 
 Requirements
@@ -15,7 +20,7 @@ python main.py
 
 The game entrypoint is [`main.main`](main.py).
 
-## Controls
+## Usage / Controls
 
 - W / S — thrust forward / reverse
 - A / D — rotate left / right
@@ -49,8 +54,6 @@ Key behaviors are implemented in:
 - [asteroidfield.py](asteroidfield.py)  
 - [circleshape.py](circleshape.py)  
 - [constants.py](constants.py)  
-- [game_events.jsonl](game_events.jsonl)  
-- [game_state.jsonl](game_state.jsonl)  
 - [highscore.txt](highscore.txt)  
 - [logger.py](logger.py)  
 - [main.py](main.py)  
@@ -60,7 +63,6 @@ Key behaviors are implemented in:
 - [score.py](score.py)  
 - [shots.py](shots.py)  
 - [starfield.py](starfield.py)  
-- [__pycache__/](__pycache__/)
 
 ## Development notes
 
@@ -75,8 +77,8 @@ Common constants are in [`constants.py`](constants.py) (player speed, turn speed
 ## Contributing
 
 - Fixes, improvements and bug reports via issues and pull requests.
-- Keep changes small and include a brief description.
+- No other contributors.
 
 ## License
 
-There is no license for this repo. It's a learning project, and not marketable. Feel free to play around.
+There is no license for this repo. Feel free to play around.
