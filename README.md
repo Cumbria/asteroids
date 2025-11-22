@@ -7,7 +7,7 @@ Classic Asteroids-style arcade game implemented in Python using Pygame.
 Teach myself Python after not using it since College. The language itself is very straightforward. 
 It didn't take me long to adapt from JS and C# back to Python. I enjoyed getting to grips with this "old friend."
 
-## Quick start
+## Quick Start
 
 Requirements
 - Python >= 3.12 (see [.python-version](.python-version))
